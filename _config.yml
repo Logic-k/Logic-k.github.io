@@ -45,7 +45,7 @@ show_sidebar: true
 # Comments (utterances — GitHub Issues 기반)
 # =========================================================
 comments:
-  active: utterances
+  provider: utterances
   utterances:
     repo: Logic-k/Logic-k.github.io
     issue_term: pathname
