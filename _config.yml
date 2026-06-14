@@ -63,6 +63,11 @@ kramdown:
   hard_wrap: false
   syntax_highlighter: rouge
 
+collections:
+  tabs:
+    output: true
+    permalink: /:name/
+
 defaults:
   - scope:
       path: ""
@@ -72,14 +77,11 @@ defaults:
       comments: true
       toc: true
       permalink: /posts/:title/
-
-# =========================================================
-# Collections
-# =========================================================
-collections:
-  tabs:
-    output: true
-    permalink: /:name/
+  - scope:
+      path: ""
+      type: tabs
+    values:
+      layout: page
 
 # =========================================================
 # Exclude
