@@ -42,10 +42,14 @@ paginate: 10
 show_sidebar: true
 
 # =========================================================
-# Comments (선택 - GitHub Issues 기반 utterances)
+# Comments (utterances — GitHub Issues 기반)
 # =========================================================
 comments:
-  active: # utterances | giscus | disqus (비워두면 미사용)
+  active: utterances
+  utterances:
+    repo: Logic-k/Logic-k.github.io
+    issue_term: pathname
+    label: comment
 
 # =========================================================
 # Analytics (선택)
