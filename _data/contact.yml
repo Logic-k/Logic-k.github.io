@@ -1,0 +1,10 @@
+# 연락처 정보
+- type: github
+  url: https://github.com/Logic-k
+
+- type: email
+  url: mailto:your-email@example.com
+  tip: "이메일을 입력하세요"
+
+# - type: twitter
+#   url: https://twitter.com/username

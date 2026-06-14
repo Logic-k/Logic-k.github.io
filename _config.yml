@@ -1,0 +1,92 @@
+# =========================================================
+# Site Settings
+# =========================================================
+lang: ko-KR
+title: Logic-k · Portfolio & Diary
+tagline: 기억을 기록하는 개발자
+description: >-
+  Flutter 개발자 Logic-k의 포트폴리오 및 개인 다이어리입니다.
+  MemoryLink 프로젝트와 개발 일상을 기록합니다.
+url: "https://logic-k.github.io"
+baseurl: ""
+github:
+  username: Logic-k
+
+# =========================================================
+# Theme Settings (Chirpy)
+# =========================================================
+theme: jekyll-theme-chirpy
+avatar: /assets/img/avatar.svg
+
+# Social links
+social:
+  name: Logic-k
+  email: # 이메일을 입력하세요
+  links:
+    - https://github.com/Logic-k
+
+# =========================================================
+# UI Settings
+# =========================================================
+theme_mode: # [light | dark] 비워두면 시스템 설정 따라감
+img_cdn: ""
+cdn: ""
+
+# Future posts (allow same-day posts)
+future: true
+
+# Pagination
+paginate: 10
+
+# Post settings
+show_sidebar: true
+
+# =========================================================
+# Comments (선택 - GitHub Issues 기반 utterances)
+# =========================================================
+comments:
+  active: # utterances | giscus | disqus (비워두면 미사용)
+
+# =========================================================
+# Analytics (선택)
+# =========================================================
+google_analytics:
+  id: ""
+
+# =========================================================
+# Build settings
+# =========================================================
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+  hard_wrap: false
+  syntax_highlighter: rouge
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+      comments: true
+      toc: true
+      permalink: /posts/:title/
+
+# =========================================================
+# Collections
+# =========================================================
+collections:
+  tabs:
+    output: true
+    permalink: /:name/
+
+# =========================================================
+# Exclude
+# =========================================================
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - README.md
